@@ -3,8 +3,6 @@ body {
 }
 
 /*sandwich*/
-
-
 #sandwich {
     width: 100px;
     height: 100px;
@@ -12,301 +10,264 @@ body {
 }
 
 #brot {
-    animation-name: brotOben;
-    animation-duration: 1200ms;
-    transform-box: fill-box;
-    animation-direction: alternate;
-
-    animation-delay: 1700ms;
-    transform: translateY(-700px);
-    animation-fill-mode: forwards;  
+    -webkit-animation-name: brotOben;
+    -webkit-animation-duration: 1200ms;
+    -webkit-transform-box: fill-box;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 1700ms;
+    -webkit-transform: translateY(-700px);
+    -webkit-animation-fill-mode: forwards;  
 }
 
 #salatOben {
-    animation-name: salatOben;
-    animation-duration: 2100ms;
-    animation-delay: 1000ms;
-    transform-box: fill-box;
-    transform-origin: right;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    transform: translateY(-700px);
-    animation-fill-mode: forwards;  
-
+    -webkit-animation-name: salatOben;
+    -webkit-animation-duration: 2100ms;
+    -webkit-animation-delay: 1000ms;
+    -webkit-transform-box: fill-box;
+    -webkit-transform-origin: right;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-transform: translateY(-700px);
+    -webkit-animation-fill-mode: forwards;  
 }
 
 #salatUnten {
-    animation-name: salatUnten;
-    animation-duration: 1600ms;
-    animation-delay: 500ms;
-
-    transform-box: fill-box;
-    transform-origin: right;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    transform: translateY(-700px);
-    animation-fill-mode: forwards; 
-
+    -webkit-animation-name: salatUnten;
+    -webkit-animation-duration: 1600ms;
+    -webkit-animation-delay: 500ms;
+    -webkit-transform-box: fill-box;
+    -webkit-transform-origin: right;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-transform: translateY(-700px);
+    -webkit-animation-fill-mode: forwards; 
 }
 
 #kaese {
-    animation-name: kaese;
-    animation-duration: 1600ms;
-    animation-delay: 900ms;
-    transform-box: fill-box;
-
-    animation-timing-function: linear;
-    transform: translateY(-700px);
-    animation-fill-mode: forwards; 
-
+    -webkit-animation-name: kaese;
+    -webkit-animation-duration: 1600ms;
+    -webkit-animation-delay: 900ms;
+    -webkit-transform-box: fill-box;
+    -webkit-animation-timing-function: linear;
+    -webkit-transform: translateY(-700px);
+    -webkit-animation-fill-mode: forwards; 
 }
 
 #wurst {
-    animation-name: wurst;
-    animation-duration: 1600ms;
-    animation-delay: 1100ms;
-    transform-box: fill-box;
-    animation-play-state: inherit;
-
-    animation-timing-function: linear;
-    transform: translateY(-700px);
-    animation-fill-mode: forwards;  
-
+    -webkit-animation-name: wurst;
+    -webkit-animation-duration: 1600ms;
+    -webkit-animation-delay: 1100ms;
+    -webkit-transform-box: fill-box;
+    -webkit-animation-play-state: inherit;
+    -webkit-animation-timing-function: linear;
+    -webkit-transform: translateY(-700px);
+    -webkit-animation-fill-mode: forwards;  
 }
 
 @keyframes brotOben {
-
-    
-
-
-    100% { transform: translateY(100px);
+    100% { -webkit-transform: translateY(100px);
     }
 }
 
 @keyframes salatOben {
-
-    
-    50% { transform: translateY(70px) rotate(-5deg);
+    50% { -webkit-transform: translateY(70px) rotate(-5deg);
     }
 
-    100% { transform: translateY(86px);
+    100% { -webkit-transform: translateY(86px);
     }
 }
 
 @keyframes salatUnten {
-
-    
-    50% { transform: translateY(10px)rotate(-5deg);
+    50% { -webkit-transform: translateY(10px)rotate(-5deg);
     }
-    80% { transform: translateY(15px)rotate(2deg);
+    80% { -webkit-transform: translateY(15px)rotate(2deg);
     }
-    100% { transform: translateY(20px);
+    100% { -webkit-transform: translateY(20px);
     }
 }
 
 @keyframes kaese {
-  50% { transform: translateY(20px) rotate(-6deg);
+  50% { -webkit-transform: translateY(20px) rotate(-6deg);
     }
-
-    100% { transform: translateY(40px);
+    100% { -webkit-transform: translateY(40px);
     }
 }
 
 @keyframes wurst {
-
-    
-    50% { transform: translateY(50px) rotate(1deg);
+    50% { -webkit-transform: translateY(50px) rotate(1deg);
     }
-
-    100% { transform: translateY(65px);
+    100% { -webkit-transform: translateY(65px);
     }
 }
 
-
 /*tee*/
-
 #kanne {
-    animation-name: kanne;
-    animation-duration: 2000ms;
-    animation-delay: 3s;
-    transform-box: fill-box;
-    animation-play-state: inherit;
-
-    animation-timing-function: linear;
-
-    animation-fill-mode: forwards;  
-
+    -webkit-animation-name: kanne;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-delay: 3s;
+    -webkit-transform-box: fill-box;
+    -webkit-animation-play-state: inherit;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;      
 }
 
 @keyframes kanne {
-50% { transform: rotate(-30deg);
+    50% { -webkit-transform: rotate(-30deg);
     }
-
-100% { transform: rotate(0deg);
-}
+    100% { -webkit-transform: rotate(0deg);
+    }
 }
 
 #dampf1 {
-    animation-name: dampf1;
-    animation-duration: 2000ms;
-    animation-delay: 5s;
-    transform-box: fill-box;
-    animation-play-state: inherit;
-    animation-iteration-count: 2;
-
+    -webkit-animation-name: dampf1;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-delay: 5s;
+    -webkit-transform-box: fill-box;
+    -webkit-animation-play-state: inherit;
+    -webkit-animation-iteration-count: 2;
 }
 
 #dampf2, #dampf2-2 {
-    animation-name: dampf2;
-    animation-duration: 2000ms;
-    animation-delay: 5s;
-    transform-box: fill-box;
-    animation-play-state: inherit;
-    animation-iteration-count: 2;
-
+    -webkit-animation-name: dampf2;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-delay: 5s;
+    -webkit-transform-box: fill-box;
+    -webkit-animation-play-state: inherit;
+    -webkit-animation-iteration-count: 2;
 }
 
 #dampf3 {
-    animation-name: dampf3;
-    animation-duration: 2000ms;
-    animation-delay: 5s;
-    transform-box: fill-box;
-    animation-play-state: inherit;
-    animation-iteration-count: 2;
-
+    -webkit-animation-name: dampf3;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-delay: 5s;
+    -webkit-transform-box: fill-box;
+    -webkit-animation-play-state: inherit;
+    -webkit-animation-iteration-count: 2;
 }
 
 @keyframes dampf1 {
-
     100% { 
-        transform: translateY(-20px);
-        opacity:0.0; 
-     }
+        -webkit-transform: translateY(-20px);
+        -webkit-opacity:0.0; 
     }
+}
 
 @keyframes dampf2 {
-
     100% { 
-            transform: translateY(-30px);
-            opacity:0.0; 
-         }
-     }
- @keyframes dampf3 {
-
+        -webkit-transform: translateY(-30px);
+        -webkit-opacity:0.0; 
+    }
+}
+@keyframes dampf3 {
     100% { 
-        transform: translateY(-15px);
-                opacity:0.0; 
-            }
-    }       
-
-
+        -webkit-transform: translateY(-15px); 
+        -webkit-opacity:0.0; 
+        }
+}       
 
 /*waschbecken*/
+#tropfen{
+    -webkit-animation-name: rinse;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-delay: 11s;
+  -webkit-animation-timing-function: linear;
+  }
+  
+.waschbecken {
+    -webkit-height: 300px;
+    -webkit-width: 300px;
+    -webkit-box-align: center;
+    -webkit-margin-top: 100px;
+    -webkit-margin-left: 30%;
+    -webkit-animation-delay: 10s;
+}
+  
+#rechts {
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-transform-box: fill-box;
+    -webkit-transform-origin: center;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-delay: 10s;
+}
+  
+#bubble1 {
+    -webkit-animation-name: bubble1;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: 1; 
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: center;
+    -webkit-animation-delay: 10s;
+}
+  
+#bubble2 {
+    -webkit-animation-name: bubble2;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: 1; 
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-direction: reverse;
+    -webkit-transform-origin: center;
+    -webkit-animation-delay: 10s;  
+}
 
-
-  #tropfen{
-      animation-name: rinse;
-      animation-duration: 1s;
-      animation-iteration-count: 3;
-      animation-delay: 11s;
-      animation-timing-function: linear;
-  }
+#bubble3 {
+    -webkit-animation-name: bubble3;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: 1; 
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: right;
+    -webkit-animation-delay: 10s;
+}
   
-  .waschbecken {
-      height: 300px;
-      width: 300px;
-      box-align: center;
-      margin-top: 100px;
-      margin-left: 30%;
-      animation-delay: 10s;
-  }
+@keyframes rotate {
+    100% { 
+        -webkit-transform: rotate(180deg);
+    }
+}
   
-  #rechts {
-      animation-name: rotate;
-      animation-duration: 1s;
-      animation-iteration-count: 3;
-      transform-box: fill-box;
-      transform-origin: center;
-      animation-delay: 1s;
-      animation-timing-function: ease-out;
-      animation-delay: 10s;
-  }
+@keyframes rinse {
+    50% { -webkit-transform: translateY(40px);
+    -webkit-opacity: 1;
+    }
   
-  #bubble1 {
-      animation-name: bubble1;
-      animation-duration: 5s;
-      animation-iteration-count: 1; 
-      animation-timing-function:ease-in-out;
-      animation-iteration-count: 1;
-      transform-origin: center;
-      animation-delay: 10s;
-  }
-  
-  #bubble2 {
-      animation-name: bubble2;
-      animation-duration: 5s;
-      animation-iteration-count: 1; 
-      animation-timing-function:ease-in-out;
-      animation-direction: reverse;
-      transform-origin: center;
-      animation-delay: 10s;
-      
-  }
-  
-  #bubble3 {
-      animation-name: bubble3;
-      animation-duration: 5s;
-      animation-iteration-count: 1; 
-      animation-timing-function:ease-in-out;
-      animation-iteration-count: 1;
-      transform-origin: right;
-      animation-delay: 10s;
-  }
-  
-  
-  @keyframes rotate {
-      100% { 
-          transform: rotate(180deg);
-      }
-  }
-  
-  @keyframes rinse {
-  50% { transform: translateY(40px);
-      opacity: 1;}
-  
-  100% { 
+    100% { 
       transform: translateY(80px);
       opacity:0.0; 
-   }
-  }
+    }
+}
   
   @keyframes bubble1 {
   50% {
-      transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
   }
   
   100% {
-      transform: rotate(0deg‚);
+    -webkit-transform: rotate(0deg‚);
   }
   }
 
   @keyframes bubble2 {
     50% {
-        transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
     }
     
     100% {
-        transform: rotate(0deg‚);
+        -webkit-transform: rotate(0deg‚);
     }
     }
   
     @keyframes bubble3 {
         50% {
-            transform: rotate(4deg);
+            -webkit-transform: rotate(4deg);
         }
         
         100% {
-            transform: rotate(0deg‚);
+            -webkit-transform: rotate(0deg‚);
         }
         }
   
