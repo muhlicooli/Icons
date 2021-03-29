@@ -201,14 +201,39 @@ body {
 /*waschbecken*/
 
 
-  #tropfen{
+  .tropfen{
       animation-name: rinse;
       animation-duration: 1s;
       animation-iteration-count: 3;
       animation-delay: 10.1s;
       animation-timing-function: linear;
+      transform: translateY(-40px);
+      opacity: 0;
   }
-  
+
+  #wasser {
+      animation-name: wasser;
+      animation-duration: 3.5s;
+      animation-iteration-count: 1;
+      animation-delay: 10.1s;
+      animation-timing-function: linear;
+
+      transform-origin: 50% 50%;
+        transform: translateY(-50px);
+      transform-box: fill-box;
+   
+  }
+
+  @keyframes wasser {
+    15% { 
+        transform: scaleY(2.8);
+    }
+    
+    100% { 
+        transform: scaleY(2.8);}
+
+}
+
   .waschbecken {
       height: 300px;
       width: 300px;
